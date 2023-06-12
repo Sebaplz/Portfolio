@@ -1,5 +1,5 @@
 .switch {
-  width: 60px;
+  width: 50px;
   height: 25px;
   background-color: rgba(255, 255, 255, 0.4);
   display: flex;
@@ -16,6 +16,6 @@
 .handle {
   width: 20px;
   height: 20px;
-  background-color: white;
+  background-color: #f8fafc;
   border-radius: 40px;
 }
