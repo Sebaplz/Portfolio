@@ -1,7 +1,7 @@
 # Portfolio
 
 ## Ejemplo en vivo
-- [https://sebaplz.github.io/weatherApi/](https://sebaplz.github.io/Portfolio/)
+- [https://sebaplz.github.io/Portfolio/](https://sebaplz.github.io/Portfolio/)
 
 ## Descripción 📑
 
