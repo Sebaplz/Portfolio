@@ -14,7 +14,7 @@ function App() {
   return (
     <>
       <div className={darkMode ? "dark" : ""}>
-        <header className="p-5 dark:bg-slate-800 bg-slate-700 max-h-[8vh] fixed w-full z-50">
+        <header className="p-5 dark:bg-slate-800 bg-slate-700 max-h-[7vh] fixed w-full z-50 flex flex-row flex-wrap md:flex-nowrap justify-between items-center">
           <Navbar handleToggleDarkMode={toggleDarkMode} />
         </header>
 
@@ -31,7 +31,7 @@ function App() {
                 }}
                 className="text-slate-800 dark:text-slate-50 px-4"
               >
-                <h1 className="text-4xl sm:text-5xl md:text-6xl 2xl:text-7xl font-bold">
+                <h1 className="text-4xl md:text-6xl 2xl:text-7xl font-bold">
                   Sebastián Neira
                 </h1>
                 <h2 className="text-2xl md:text-3xl lg:text-4xl text-center lg:text-left">
@@ -71,7 +71,8 @@ function App() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <a
-                  href="#"
+                  href="SebastianNeiraCV.pdf"
+                  download="SebastianNeiraCV.pdf"
                   className="text-slate-50 bg-slate-700 dark:bg-[#087ea4] p-3 rounded-full font-semibold lg:text-xl"
                 >
                   Descargar CV
@@ -193,7 +194,7 @@ function App() {
                 </div>
               </article>
             </div>
-            <div className="flex justify-center mt-10">
+            <div className="flex justify-center p-10">
               <motion.a
                 href="https://github.com/Sebaplz?tab=repositories"
                 className="text-slate-50 bg-slate-700 dark:bg-[#087ea4] p-3 rounded-full font-sans font-semibold lg:text-xl"
@@ -204,7 +205,7 @@ function App() {
               </motion.a>
             </div>
           </section>
-          <div className="flex justify-end p-5">
+          <div className="fixed bottom-5 right-5">
             <BsFillArrowUpCircleFill
               className="animate-bounce cursor-pointer text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl"
               onClick={() => (window.location.href = "#principal")}
