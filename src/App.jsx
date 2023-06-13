@@ -194,7 +194,7 @@ function App() {
                 </div>
               </article>
             </div>
-            <div className="flex justify-center p-10">
+            <div className="flex justify-center pt-10">
               <motion.a
                 href="https://github.com/Sebaplz?tab=repositories"
                 className="text-slate-50 bg-slate-700 dark:bg-[#087ea4] p-3 rounded-full font-sans font-semibold lg:text-xl"
@@ -205,7 +205,7 @@ function App() {
               </motion.a>
             </div>
           </section>
-          <div className="fixed bottom-5 right-5">
+          <div className="flex justify-end px-5 pb-2">
             <BsFillArrowUpCircleFill
               className="animate-bounce cursor-pointer text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl"
               onClick={() => (window.location.href = "#principal")}
