@@ -49,7 +49,7 @@ function App() {
                 className="lg:w-2/5"
               >
                 <img
-                  src="/hero.svg"
+                  src="images/hero.svg"
                   alt="Hero"
                   className="p-5 md:w-3/4 lg:w-4/5 mx-auto"
                 />
@@ -131,7 +131,7 @@ function App() {
             <div className="flex flex-col items-center gap-10 lg:flex-row md:px-10 xl:px-20">
               <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
                 <img
-                  src="/WeatherApi.png"
+                  src="images/WeatherApi.png"
                   alt="Weather Api"
                   className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
                 />
@@ -152,7 +152,7 @@ function App() {
               </article>
               <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
                 <img
-                  src="/IpTracker.png"
+                  src="images/IpTracker.png"
                   alt="Ip Tracker"
                   className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
                 />
@@ -173,7 +173,7 @@ function App() {
               </article>
               <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
                 <img
-                  src="/DigiApi.png"
+                  src="images/DigiApi.png"
                   alt="Ip Tracker"
                   className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
                 />

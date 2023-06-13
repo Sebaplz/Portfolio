@@ -20,7 +20,7 @@ function Navbar(props) {
     <>
       <nav className="md:flex md:justify-between md:items-center hidden">
         <img
-          src="/Logo.png"
+          src="images/Logo.png"
           alt="Logo"
           className="w-8 h-8 hidden sm:block cursor-pointer"
           onClick={() => (window.location.href = "#principal")}
