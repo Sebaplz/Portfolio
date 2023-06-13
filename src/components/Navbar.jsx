@@ -28,18 +28,18 @@ function Navbar(props) {
         <ul className="flex items-center">
           <li className="px-2">
             <a
-              href="#proyectos"
-              className="text-xl text-slate-400  hover:text-slate-50 hover:underline"
-            >
-              Proyectos
-            </a>
-          </li>
-          <li className="pl-2 pr-10">
-            <a
               href="#about"
               className="text-xl text-slate-400  hover:text-slate-50 hover:underline"
             >
               Sobre mí
+            </a>
+          </li>
+          <li className="pl-2 pr-10">
+            <a
+              href="#proyectos"
+              className="text-xl text-slate-400  hover:text-slate-50 hover:underline"
+            >
+              Proyectos
             </a>
           </li>
           <li className="px-2 flex items-center">
