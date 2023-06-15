@@ -79,13 +79,13 @@ function App() {
                 </a>
               </motion.div>
               <div className="flex mt-5 justify-center items-center">
-                <AiFillLinkedin
-                  className="cursor-pointer text-slate-700 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl"
-                  onClick={() =>
-                    (window.location.href =
-                      "https://www.linkedin.com/in/sebastian-neira/")
-                  }
-                />
+                <a
+                  href="https://www.linkedin.com/in/sebastian-neira/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillLinkedin className="cursor-pointer text-slate-700 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl" />
+                </a>
                 <FiMail
                   className="cursor-pointer text-slate-700 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl"
                   onClick={() =>
@@ -93,12 +93,14 @@ function App() {
                       "mailto:sebastian.h.neira@outlook.com")
                   }
                 />
-                <AiFillGithub
-                  className="cursor-pointer text-slate-700 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl"
-                  onClick={() =>
-                    (window.location.href = "https://github.com/Sebaplz")
-                  }
-                />
+
+                <a
+                  href="https://github.com/Sebaplz"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <AiFillGithub className="cursor-pointer text-slate-700 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-50 text-5xl" />
+                </a>
               </div>
             </motion.div>
           </section>
@@ -107,7 +109,7 @@ function App() {
             id="about"
           >
             <h2 className="text-slate-800 dark:text-slate-50 text-center text-2xl md:text-3xl lg:text-4xl font-bold">
-              Sobre Mí
+              Sobre mí
             </h2>
             <p className="text-slate-800 dark:text-slate-50 text-justify mt-4 font-medium">
               Hola! Soy Sebastián Neira, Ingeniero en Informática, en busca de
@@ -130,7 +132,11 @@ function App() {
               Proyectos
             </h2>
             <div className="flex flex-col items-center gap-10 lg:flex-row md:px-10 xl:px-20">
-              <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
+              <motion.article
+                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <img
                   src="images/WeatherApi.png"
                   alt="Weather Api"
@@ -139,19 +145,27 @@ function App() {
                 <div className="flex justify-center items-center">
                   <a
                     href="https://github.com/Sebaplz/weatherApi"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
                   >
                     <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
                   </a>
                   <a
                     href="https://sebaplz.github.io/weatherApi/"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
                   >
-                    Ver el Deploy
+                    Ver Deploy
                   </a>
                 </div>
-              </article>
-              <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
+              </motion.article>
+              <motion.article
+                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <img
                   src="images/IpTracker.png"
                   alt="Ip Tracker"
@@ -160,19 +174,27 @@ function App() {
                 <div className="flex justify-center items-center">
                   <a
                     href="https://github.com/Sebaplz/ip-address-tracker"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
                   >
                     <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
                   </a>
                   <a
                     href="https://sebaplz.github.io/ip-address-tracker/"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
                   >
-                    Ver el Deploy
+                    Ver Deploy
                   </a>
                 </div>
-              </article>
-              <article className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg">
+              </motion.article>
+              <motion.article
+                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
+                whileHover={{ scale: 1.02 }}
+                transition={{ type: "spring", stiffness: 400, damping: 10 }}
+              >
                 <img
                   src="images/DigiApi.png"
                   alt="Ip Tracker"
@@ -181,22 +203,28 @@ function App() {
                 <div className="flex justify-center items-center">
                   <a
                     href="https://github.com/Sebaplz/DigiApi"
+                    target="_blank"
+                    rel="noreferrer"
                     className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
                   >
                     <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
                   </a>
                   <a
                     href="https://sebaplz.github.io/DigiApi/"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
                   >
-                    Ver el Deploy
+                    Ver Deploy
                   </a>
                 </div>
-              </article>
+              </motion.article>
             </div>
             <div className="flex justify-center pt-10">
               <motion.a
                 href="https://github.com/Sebaplz?tab=repositories"
+                target="_blank"
+                rel="noreferrer"
                 className="text-slate-50 bg-slate-700 dark:bg-[#087ea4] p-3 rounded-full font-sans font-semibold lg:text-xl"
                 whileHover={{ scale: 1.1 }}
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
@@ -216,13 +244,13 @@ function App() {
           <div className="flex flex-col justify-center items-center text-slate-50 dark:text-slate-50">
             <h2 className=" pb-3">Desarrollado por Sebastián Neira 🧙‍♂️</h2>
             <div className="flex justify-between items-center gap-3">
-              <AiFillLinkedin
-                className="cursor-pointer text-slate-400 hover:text-slate-50 text-3xl"
-                onClick={() =>
-                  (window.location.href =
-                    "https://www.linkedin.com/in/sebastian-neira/")
-                }
-              />
+              <a
+                href="https://www.linkedin.com/in/sebastian-neira/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillLinkedin className="cursor-pointer text-slate-400 hover:text-slate-50 text-3xl" />
+              </a>
               <FiMail
                 className="cursor-pointer text-slate-400 hover:text-slate-50 text-3xl"
                 onClick={() =>
@@ -230,12 +258,13 @@ function App() {
                     "mailto:sebastian.h.neira@outlook.com")
                 }
               />
-              <AiFillGithub
-                className="cursor-pointer text-slate-400 hover:text-slate-50 text-3xl"
-                onClick={() =>
-                  (window.location.href = "https://github.com/Sebaplz")
-                }
-              />
+              <a
+                href="https://github.com/Sebaplz"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <AiFillGithub className="cursor-pointer text-slate-400 hover:text-slate-50 text-3xl" />
+              </a>
             </div>
           </div>
         </footer>

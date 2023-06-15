@@ -39,7 +39,17 @@ function Navbar(props) {
             <li className="px-2">
               <a
                 href="#about"
-                className="text-xl text-slate-400  hover:text-slate-50 hover:underline"
+                className="text-xl text-slate-400 hover:text-slate-50 hover:underline"
+                onClick={(event) => {
+                  event.preventDefault();
+                  window.location.href =
+                    event.currentTarget.getAttribute("href");
+                }}
+                onAuxClick={(event) => {
+                  event.preventDefault();
+                  window.location.href =
+                    event.currentTarget.getAttribute("href");
+                }}
               >
                 Sobre mí
               </a>
@@ -48,6 +58,16 @@ function Navbar(props) {
               <a
                 href="#proyectos"
                 className="text-xl text-slate-400  hover:text-slate-50 hover:underline"
+                onClick={(event) => {
+                  event.preventDefault();
+                  window.location.href =
+                    event.currentTarget.getAttribute("href");
+                }}
+                onAuxClick={(event) => {
+                  event.preventDefault();
+                  window.location.href =
+                    event.currentTarget.getAttribute("href");
+                }}
               >
                 Proyectos
               </a>
