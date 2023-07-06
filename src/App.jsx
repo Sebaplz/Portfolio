@@ -5,6 +5,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsFillArrowUpCircleFill } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
 import { motion } from "framer-motion";
+import Carousel from "./components/Carousel";
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
@@ -131,95 +132,7 @@ function App() {
             <h2 className="text-slate-800 dark:text-slate-50 text-center text-2xl md:text-3xl mb-4 font-bold">
               Proyectos
             </h2>
-            <div className="flex flex-col items-center gap-10 lg:flex-row md:px-10 xl:px-20">
-              <motion.article
-                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
-                whileHover={{ scale: 1.02 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <img
-                  src="images/WeatherApi.png"
-                  alt="Weather Api"
-                  className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
-                />
-                <div className="flex justify-center items-center">
-                  <a
-                    href="https://github.com/Sebaplz/weatherApi"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
-                  >
-                    <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
-                  </a>
-                  <a
-                    href="https://sebaplz.github.io/weatherApi/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
-                  >
-                    Ver Deploy
-                  </a>
-                </div>
-              </motion.article>
-              <motion.article
-                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
-                whileHover={{ scale: 1.02 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <img
-                  src="images/IpTracker.png"
-                  alt="Ip Tracker"
-                  className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
-                />
-                <div className="flex justify-center items-center">
-                  <a
-                    href="https://github.com/Sebaplz/ip-address-tracker"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
-                  >
-                    <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
-                  </a>
-                  <a
-                    href="https://sebaplz.github.io/ip-address-tracker/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
-                  >
-                    Ver Deploy
-                  </a>
-                </div>
-              </motion.article>
-              <motion.article
-                className="border-2 border-slate-800 dark:border-slate-400 w-3/4 md:w-full rounded-lg"
-                whileHover={{ scale: 1.02 }}
-                transition={{ type: "spring", stiffness: 400, damping: 10 }}
-              >
-                <img
-                  src="images/DigiApi.png"
-                  alt="Ip Tracker"
-                  className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
-                />
-                <div className="flex justify-center items-center">
-                  <a
-                    href="https://github.com/Sebaplz/DigiApi"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
-                  >
-                    <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
-                  </a>
-                  <a
-                    href="https://sebaplz.github.io/DigiApi/"
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
-                  >
-                    Ver Deploy
-                  </a>
-                </div>
-              </motion.article>
-            </div>
+            <Carousel />
             <div className="flex justify-center pt-10">
               <motion.a
                 href="https://github.com/Sebaplz?tab=repositories"
