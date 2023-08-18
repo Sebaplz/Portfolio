@@ -196,13 +196,13 @@ function App() {
                 transition={{ type: "spring", stiffness: 400, damping: 10 }}
               >
                 <img
-                  src="images/DigiApi.png"
+                  src="images/Rest-Country.png"
                   alt="Ip Tracker"
                   className="rounded-t-lg md:rounded-none mx-auto xl:h-[35rem]"
                 />
                 <div className="flex justify-center items-center">
                   <a
-                    href="https://github.com/Sebaplz/DigiApi"
+                    href="https://github.com/Sebaplz/Rest-Countries"
                     target="_blank"
                     rel="noreferrer"
                     className="text-slate-800 dark:text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2"
@@ -210,7 +210,7 @@ function App() {
                     <AiFillGithub className="cursor-pointer text-slate-50 text-3xl" />
                   </a>
                   <a
-                    href="https://sebaplz.github.io/DigiApi/"
+                    href="https://sebaplz.github.io/Rest-Countries/"
                     target="_blank"
                     rel="noreferrer"
                     className="text-slate-50 dark:bg-[#087ea4] bg-slate-700 rounded-xl font-sans font-semibold p-2 m-2 h-12 flex items-center"
