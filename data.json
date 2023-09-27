@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "src": "images/Rest-Country.webp",
+    "alt": "Rest Country",
+    "href": "https://github.com/Sebaplz/Rest-Countries",
+    "deploy": "https://sebaplz.github.io/Rest-Countries/",
+    "title": "Rest Country API",
+    "description": "Desafio de Frontend Mentor realizado con React, React Router y Tailwind. Utilizando la API de https://restcountries.com/"
+  },
+  {
+    "id": 2,
+    "src": "images/Github-Search.webp",
+    "alt": "Github Search",
+    "href": "https://github.com/Sebaplz/github-frontend-mentor",
+    "deploy": "https://github-frontend-mentor.vercel.app/",
+    "title": "GitHub Search",
+    "description": "App para ver la información de un usuario de github, utilizando NextJs, TypeScript y Tailwind."
+  },
+  {
+    "id": 3,
+    "src": "images/WeatherApi.webp",
+    "alt": "Weather Api",
+    "href": "https://github.com/Sebaplz/weatherApi",
+    "deploy": "https://sebaplz.github.io/weatherApi/",
+    "title": "Weather API",
+    "description": "App para ver el clima según el pais o ciudad que escriba el usuario. Los datos lo entrega una API que esta hosteada en https://rapidapi.com/hub"
+  },
+  {
+    "id": 4,
+    "src": "images/IpTracker.webp",
+    "alt": "Ip Tracker",
+    "href": "https://github.com/Sebaplz/ip-address-tracker",
+    "deploy": "https://sebaplz.github.io/ip-address-tracker/",
+    "title": "IP Tracker",
+    "description": "Desafio de Frontend Mentor realizado con React, LeafletJS, geo.ipify.org y Tailwind."
+  }
+]
