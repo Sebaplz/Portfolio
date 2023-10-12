@@ -19,12 +19,12 @@
   },
   {
     "id": 3,
-    "src": "images/WeatherApi.webp",
-    "alt": "Weather Api",
-    "href": "https://github.com/Sebaplz/weatherApi",
-    "deploy": "https://sebaplz.github.io/weatherApi/",
-    "title": "Weather API",
-    "description": "App para ver el clima según el pais o ciudad que escriba el usuario. Los datos lo entrega una API que esta hosteada en https://rapidapi.com/hub"
+    "src": "images/MovieApi.webp",
+    "alt": "MovieApi",
+    "href": "https://github.com/Sebaplz/movie-api",
+    "deploy": "https://movie-api-mu-five.vercel.app/",
+    "title": "MovieApi",
+    "description": "Desafio de Frontend realizado con NextJs, TypeScript, Tailwind. Obteniendo datos de una api externa https://www.omdbapi.com/"
   },
   {
     "id": 4,
@@ -34,5 +34,14 @@
     "deploy": "https://sebaplz.github.io/ip-address-tracker/",
     "title": "IP Tracker",
     "description": "Desafio de Frontend Mentor realizado con React, LeafletJS, geo.ipify.org y Tailwind."
+  },
+  {
+    "id": 5,
+    "src": "images/WeatherApi.webp",
+    "alt": "Weather Api",
+    "href": "https://github.com/Sebaplz/weatherApi",
+    "deploy": "https://sebaplz.github.io/weatherApi/",
+    "title": "Weather API",
+    "description": "App para ver el clima según el pais o ciudad que escriba el usuario. Los datos lo entrega una API que esta hosteada en https://rapidapi.com/hub"
   }
 ]
