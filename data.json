@@ -1,6 +1,15 @@
 [
   {
     "id": 1,
+    "src": "images/ShoppingApp.webp",
+    "alt": "Shopping App",
+    "href": "https://github.com/Sebaplz/ShoopingApp",
+    "deploy": "https://sebaplz.github.io/ShoopingApp/",
+    "title": "Shopping App",
+    "description": "Carrito de compra utilizando React, React Router, manejo de estado con useContext y useReducer"
+  },
+  {
+    "id": 2,
     "src": "images/Rest-Country.webp",
     "alt": "Rest Country",
     "href": "https://github.com/Sebaplz/Rest-Countries",
@@ -9,7 +18,7 @@
     "description": "Desafio de Frontend Mentor realizado con React, React Router y Tailwind. Utilizando la API de https://restcountries.com/"
   },
   {
-    "id": 2,
+    "id": 3,
     "src": "images/Github-Search.webp",
     "alt": "Github Search",
     "href": "https://github.com/Sebaplz/github-frontend-mentor",
@@ -18,7 +27,7 @@
     "description": "App para ver la información de un usuario de github, utilizando NextJs, TypeScript y Tailwind."
   },
   {
-    "id": 3,
+    "id": 4,
     "src": "images/MovieApi.webp",
     "alt": "MovieApi",
     "href": "https://github.com/Sebaplz/movie-api",
@@ -27,7 +36,7 @@
     "description": "Desafio de Frontend realizado con NextJs, TypeScript, Tailwind. Obteniendo datos de una api externa https://www.omdbapi.com/"
   },
   {
-    "id": 4,
+    "id": 5,
     "src": "images/IpTracker.webp",
     "alt": "Ip Tracker",
     "href": "https://github.com/Sebaplz/ip-address-tracker",
@@ -36,7 +45,7 @@
     "description": "Desafio de Frontend Mentor realizado con React, LeafletJS, geo.ipify.org y Tailwind."
   },
   {
-    "id": 5,
+    "id": 6,
     "src": "images/WeatherApi.webp",
     "alt": "Weather Api",
     "href": "https://github.com/Sebaplz/weatherApi",
