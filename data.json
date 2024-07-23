@@ -39,10 +39,10 @@
     "id": 5,
     "src": "images/MovieApi.webp",
     "alt": "MovieApi",
-    "href": "https://github.com/Sebaplz/movie-api",
-    "deploy": "https://movie-api-mu-five.vercel.app/",
+    "href": "https://github.com/Sebaplz/movie-search-app",
+    "deploy": "https://sebaplz.github.io/movie-search-app/",
     "title": "MovieApi",
-    "description": "Desafio de Frontend realizado con NextJs, TypeScript, Tailwind. Obteniendo datos de una api externa https://www.omdbapi.com/"
+    "description": "Desafio de Frontend realizado con React, TypeScript, Tailwind, TanStackQuery y React Router. Obteniendo datos de una api externa https://www.omdbapi.com/"
   },
   {
     "id": 6,
