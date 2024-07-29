@@ -57,9 +57,9 @@
     "id": 7,
     "src": "images/WeatherApi.webp",
     "alt": "Weather Api",
-    "href": "https://github.com/Sebaplz/weatherApi",
-    "deploy": "https://sebaplz.github.io/weatherApi/",
+    "href": "https://github.com/Sebaplz/weather-app",
+    "deploy": "https://sebaplz.github.io/weather-app/",
     "title": "Weather API",
-    "description": "App para ver el clima según el pais o ciudad que escriba el usuario. Los datos lo entrega una API que esta hosteada en https://rapidapi.com/hub"
+    "description": "App para ver el clima según el pais o ciudad que escriba el usuario. Realizado con React, TypeScript, Tailwind, TanStackQuery Los datos lo entrega una API que esta hosteada en https://rapidapi.com/hub"
   }
 ]
